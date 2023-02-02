@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: linear-gradient(to top, var(--cor-um), var(--cor-dois));
+  }
+  
+  #login {
+    width: 80vw;
+  }
+
+  #login > #image {
+    float: right;
+    width: 30%;
+    height: 100%;
+    background: var(--cor-dois) url(https://images.pexels.com/photos/12905849/pexels-photo-12905849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: left;
+  }
+
+  #login > #formulario {
+    float: left;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background-image: linear-gradient(to top, var(--cor-um), var(--cor-dois));
+  }
+
+  #login {
+    width: 950px;
+  }
+
+  #login > #image {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: var(--cor-dois) url(https://images.pexels.com/photos/612888/pexels-photo-612888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: left;
+  }
+
+  #login > #formulario {
+    float: right;
+    width: 50%;
+  }
+}
